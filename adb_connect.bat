@@ -1,0 +1,1 @@
+C:\Users\Usuario\AppData\Local\Android\Sdk\platform-tools\adb connect 192.168.0.102

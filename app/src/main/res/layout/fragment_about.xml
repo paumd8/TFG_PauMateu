@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/frameLayout2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragments.AboutFragment">
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="700dp"
+        android:layout_height="257dp"
+        android:text="Esta aplicación forma parte del Proyecto de Experiencias Lúdicas con Agentes Sociales Interactivos y Robots: Aprendizaje Social y Comunicación Intergeneracional  (PLEISAR) y consiste en la integración de bioseñales en el robot asistencial Pepper. Este trabajo final de grado es parte del proyecto PID2022-136779OB-C32 financiado por MCIN/ AEI /10.13039/501100011033/ y por FEDER Una manera de hacer Europa."
+        android:textAlignment="center"
+        android:textColor="#050505"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.516"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.896" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Autor: Pau Mateu Deyá"
+        android:textColor="#050505"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.098" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tutores: José María Buades Rubio, Paco Perales López"
+        android:textColor="#050505"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.188" />
+</androidx.constraintlayout.widget.ConstraintLayout>
